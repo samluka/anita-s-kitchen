@@ -11,10 +11,47 @@ background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
 min-height: 80%;
-font-family:'Quicksand' ,sans-serif;
-text-decoration-color: white;
+font-family:'Vollkorn', serif;
+color: white;
 justify-content: center;
 align-items: center;
 flex-direction: column;
 display: flex;
+padding-right: 100px;
 }
+.container {
+     margin: 100px;
+     font-family:'Vollkorn', serif;
+ }
+ #meals {
+    width: 100%;
+     min-height: 25%;
+   }
+
+  #breakfast {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 180px;
+      text-transform: capitalize;
+      background-repeat: no-repeat;
+  }
+  #lunch {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 180px;
+      text-transform: capitalize;
+      background-repeat: no-repeat;
+  }
+  #dinner {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 180px;
+      text-transform: capitalize;
+      background-repeat: no-repeat;
+  }
