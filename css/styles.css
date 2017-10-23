@@ -33,11 +33,12 @@ display: flex;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 180px;
+    min-height: 200px;
       text-transform: capitalize;
       background-image: url("../assets/foodtop/breakfast.jpg");
-       
+
       background-repeat: no-repeat;
+
   }
   #lunch {
 
@@ -46,7 +47,7 @@ display: flex;
     align-items: center;
     min-height: 180px;
       text-transform: capitalize;
-      background-image: url("../assets/foodtop/breakfast.jpg");
+      background-image: url("../assets/foodtop/lunch.jpg");
 
       background-repeat: no-repeat;
   }
@@ -57,7 +58,67 @@ display: flex;
     align-items: center;
     min-height: 180px;
       text-transform: capitalize;
-      background-image: url("../assets/foodtop/breakfast.jpg");
+      background-image: url("../assets/foodtop/dinner.jpg");
 
       background-repeat: no-repeat;
+  }
+#breakfast:hover {
+  border-radius: 20px;
+  transition: all 1s;
+background-blend-mode: lighten;
+}
+#lunch:hover {
+  border-radius: 20px;
+  transition: all 1s;
+}
+#dinner:hover {
+  border-radius: 20px;
+  transition: all 1s;
+}
+.c {
+  width: 50px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+display: flex;
+}
+.e {
+  width: 50px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+.m {
+  width: 50px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+#time {
+   display: flex;
+   flex-direction: column;
+   padding: 0px;
+ }
+
+ #party-time, #happy-hour {
+   width: 50px;
+   height: 5px;
+   display: flex;
+   justify-content: center;
+  align-items: center;
+ }
+
+ #happy-hour {
+   background-color: #eee;
+ }
+
+ #party-time {
+
+   color: #fff;
+  background-color: #F15}
+  .navigation-hide {
+    display: none;
   }

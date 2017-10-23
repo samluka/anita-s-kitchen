@@ -9,9 +9,9 @@
 This is a website that shows  a fictional Anita's kitchen.  
 ## Setup/Installation Requirements
 
-* git clone at
+* git clone at https://github.com/samluka/anita-s-kitchen
 
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+
 
 ## Known Bugs
 
