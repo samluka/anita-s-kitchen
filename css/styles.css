@@ -35,6 +35,8 @@ display: flex;
     align-items: center;
     min-height: 180px;
       text-transform: capitalize;
+      background-image: url("../assets/foodtop/breakfast.jpg");
+       
       background-repeat: no-repeat;
   }
   #lunch {
@@ -44,6 +46,8 @@ display: flex;
     align-items: center;
     min-height: 180px;
       text-transform: capitalize;
+      background-image: url("../assets/foodtop/breakfast.jpg");
+
       background-repeat: no-repeat;
   }
   #dinner {
@@ -53,5 +57,7 @@ display: flex;
     align-items: center;
     min-height: 180px;
       text-transform: capitalize;
+      background-image: url("../assets/foodtop/breakfast.jpg");
+
       background-repeat: no-repeat;
   }
