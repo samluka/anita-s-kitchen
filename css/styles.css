@@ -63,17 +63,31 @@ display: flex;
       background-repeat: no-repeat;
   }
 #breakfast:hover {
-  border-radius: 20px;
-  transition: all 1s;
-background-blend-mode: lighten;
+
+  transition: all 1s ease;
+opacity: 0.5;
+color: black;
+overflow: hidden;
+bottom: 0;
+right: 0;
 }
 #lunch:hover {
-  border-radius: 20px;
   transition: all 1s;
+  opacity: 0.5;
+  color: black;
+  overflow: hidden;
+  bottom: 0;
+  right: 0;
+
 }
 #dinner:hover {
-  border-radius: 20px;
   transition: all 1s;
+  opacity: 0.5;
+  color: black;
+  overflow: hidden;
+  bottom: 0;
+  right: 0;
+
 }
 .c {
   width: 50px;
