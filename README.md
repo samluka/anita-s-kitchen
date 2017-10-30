@@ -17,12 +17,12 @@ This is a website that shows  a fictional Anita's kitchen.
 
 At the time of creating this website there were no known bugs.
 ## Technologies Used
-*HTML
-*CSS
-*Bootstrap
-*JavaScript
-*JQuery
-*JavaScript,Bootstrap,
+* HTML
+* CSS
+* Bootstrap
+* JavaScript
+* JQuery
+* JavaScript,Bootstrap,
 
 ## Support and contact details
 

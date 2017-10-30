@@ -31,3 +31,29 @@
  - For the **Happy Hour and Party time,** create a modal that explains further what services Menu restaurant offers for both Party time and Happy Hour.
 
 #### All the best and happy coding!!
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 200px;
+  text-transform: capitalize;
+  background-image: url("../assets/foodtop/dinner.jpg");
+
+  background-repeat: no-repeat;
+  border-top: 0px;
+  padding-top: 10px;
+  color: white;
+  padding-bottom: 50;
+
+
+  <div class="box col-md-3">
+      <div id="time">
+      <div class="box col-md-3" id="time">
+             <div  id="happy-hour">
+                <p>happy hour</p>
+              </div>
+              <div id="party-time">
+                <p>party time</p>
+              </div>
+             </div>
+      </div>
+    </div>
