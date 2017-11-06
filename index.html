@@ -1,172 +1,244 @@
 <!DOCTYPE>
 <html>
- <head>
-   <link rel="stylesheet" href="css/bootstrap.css">
-   <link rel="stylesheet" href="css/styles.css">
-   <script src="js/jquery-3.2.1.js"></script>
-       <script src="js/scripts.js" ></script>
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
 
   <title>Anita's Kitchen</title>
- </head>
- <body>
+</head>
+
+<body>
 
 
 
-   <div id="sam">
-     <div class="nav">
-       <div class="menu-btn" id="menu">
-         <span></span>
-          <span></span>
-           <span></span>
-       </div>
+  <div id="sam">
+
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+
+        <li><a href="#">Contacts</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Menu</a></li>
+
+
+      </div>
+    </div>
+    <div class="menu-btn">
+      <span onclick="openNav()" class="menu-btn"></span>
+      <span onclick="openNav()" class="menu-btn"></span>
+      <span onclick="openNav()" class="menu-btn"></span>
+    </div>
 
 
 
 
-     </div>
-<div class="responsive-menu">
-  <ul>
-    <li><a href="#">Contacts</a></li>
-    <li><a href="#">events</a></li>
-      <li><a href="#">menu</a></li>
-  </ul>
-</div>
+    <img class="centre" src="assets/logoBig.png" alt="logo">
+    <div id="textcompany">
 
+      <p>WE PROVIDE THE BEST FOOD AT THE<strong> RIGHT PRICE</strong></p>
+    </div>
+  </div>
 
+  <div id="meals">
+    <div class="container1" id="meals">
+      <div class="row">
 
-
-
-<img class="centre"src="assets/logoBig.png" alt="logo">
-  <div id="textcompany" >
-
-<p>WE PROVIDE THE BEST FOOD AT THE<strong> RIGHT PRICE</strong></p>
-</div>
-   </div>
-
-<div id="meals">
-  <div class="container1" id="meals">
-<div class="row">
-
-  <div class="box col-md-3">
-    <div id="time">
-      <div class="box col-md-3" id="time">
-             <div  id="happy-hour">
+        <div class="box col-md-3">
+          <div id="time">
+            <div class="box col-md-3" id="time">
+              <div id="happy-hour">
                 <p>happy hour</p>
               </div>
               <div id="party-time">
                 <p>party time</p>
               </div>
-             </div>
-    </div>
+            </div>
+          </div>
 
-  </div>
+        </div>
 
-<div class="box col-md-3" id="breakfast">
-  <p>breakfast</p>
-  </div>
-  <div class="box col-md-3" id="lunch">
-    <p>lunch</p>
-    </div>
-    <div class="box col-md-3" id="dinner">
-      <p>dinner</p>
+        <div class="box col-md-3" id="breakfast">
+          <p>breakfast</p>
+        </div>
+        <div class="box col-md-3" id="lunch">
+          <p>lunch</p>
+        </div>
+        <div class="box col-md-3" id="dinner">
+          <p>dinner</p>
+        </div>
+
+
       </div>
 
 
+    </div>
+  </div>
+  <div id="about">
+    <div class="container-fluid" id="about">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="dimages">
+            <div class="col-md-2">
+              <img src="assets/fastFood1.jpg" alt="fastfood">
+              <img src="assets/fastFood2.jpg" alt="fastfood">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-6">
+          <h1>fastfood</h1>
+          <h3>You'll love our delicious fast food</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <button type="button" class="btn btn-outline-warning">view gallery</button>
+
+        </div>
+      </div><br />
+      <div class="row">
+
+
+
+        <div class="col-md-6">
+          <h2>Drink</h2>
+          <h4>We also produce delicious drinks</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <button type="button" class="btn btn-outline-warning">view gallery</button>
+        </div>
+
+
+
+        <div class="col-md-6">
+          <div class="dimages">
+
+            <img src="assets/drink1.jpg" alt="drinks">
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
   </div>
 
 
-     </div>
-   </div>
-     <div id="about">
-       <div class="container2" id="about">
-           <div class="row">
-<div class="jumbotron">
-  <div class="col-md-6"> <img src="assets/fastfood/beefBurger.jpg" alt="fastfood" ></div>
-</div><br />
 
 
 
-              <div class="col-md-6">
-                <h1>fastfood</h1>
-                <h3>You'll love our delicious fast food</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                 irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <button type="button" class="btn btn-outline-warning">view gallery</button>
 
-              </div>
-            </div><br />
-            <div class="row">
 
-              <div class="col-md-6">
-                <h1>Drink</h1>
-                <h3>We also produce delicious drinks</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <button type="button" class="btn btn-outline-warning">view gallery</button>
-              </div>
-<div class="jumbotron">
-              <div class="col-md-6"> <img src="assets/drink1.jpg" alt="drinks"></div><br />
+
+
+
+  <div id="foods">
+    <div class="container" id="foods">
+<div class="chep">
+
+
+      <ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Fast Food</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Drinks</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Chicken</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Rice</a>
+  </li>
+</ul>
+<button type="button" class="button1" name="button">&#10094;</button>
+<img src="assets/fastfood/chickenBurger.jpg" alt="">
+<img src="assets/fastfood/beefBurger.jpg" alt="">
+<img src="assets/fastfood/chickenPizza.jpg" alt="">
+<button type="button" class="button2" name="button">&#10095;</button>
 </div>
-           </div>
-   </div>
-   <div id="foods">
-<div class="container" id="foods">
-
-huvsjasdfkkjbfbcbni fwmfhenrg oejt rhnufh4 hhrnucuf hy wwgyge cgciyc sg
-</div>
-
-   </div>
-
-   <div id="customers">
-     <div class="container" id="customers">
-
-
-  <div class="row">
-
-
-    <div class="col-md-6"><img src="assets/customers/p1.png" alt="Georgina Richardino">
-
-  <img src="assets/customers/p2.png" alt="George Richard">
-
-  <img src="assets/customers/p3.png" alt="Richard George">
-
-
-
-</div>
+    </div>
 
   </div>
-</div>
-   </div>
-   <div class="container4" id="subscribe">
-<p>Get our daily food items delivered to your email</p>
-     <form action="" >
-       <input type="email" name="email"  class="formstyle" placeholder="Your Email"  required>
 
 
 
-<a href="#" class="button">Subscribe</a>
-       </form>
-     </div>
 
 
-   </div>
 
-   <div id="footer">
 
-<p><img src="assets/footerlogos/logo_white.png" alt="MENU"> MENU</p>
 
-<p>That's What We Are</p>
 
-<div class="col-md-6"><div class="move"><img  src="assets/footerlogos/twitter.png" alt="twitter">
+  <div id="customers">
+    <div class="container" id="customers">
 
-<img   src="assets/footerlogos/facebook.png" alt="facebook">
 
-<img   src="assets/footerlogos/pinterest.png" alt="pinterest">
-</div>
-   </div>
-<br />  <p>2016 Menu Restaurant</p><br />
-       </div>
-     </div>
+      <div class="row">
 
- </body>
+
+        <div class="col-md-6">
+          <h5>Our Happy Customers</h5>
+          
+
+        </div>
+
+        <div class="col-md-6">
+          <h5>About Menu</h5>
+          <p>We are menu ,a little team of seven members We are menu a little team of seven members We are menu ,a little team of seven members We are menu ,a little team of seven members We are menu ,a little team of seven members
+
+
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <div class="container4" id="subscribe">
+    <p>Get our daily food items delivered to your email</p>
+    <form action="" class="form">
+      <input type="email" name="email" class="formstyle" placeholder="Your Email" required>
+
+
+
+      <a href="#" class="button">Subscribe</a>
+    </form>
+  </div>
+
+
+
+
+  <div id="footer">
+
+    <p><img src="assets/footerlogos/logo_white.png" alt="MENU"> MENU</p>
+
+    <p>That's What We Are</p>
+
+    <div class="col-md-6">
+      <div class="move"><img src="assets/footerlogos/twitter.png" alt="twitter">
+
+        <img src="assets/footerlogos/facebook.png" alt="facebook">
+
+        <img src="assets/footerlogos/pinterest.png" alt="pinterest">
+      </div>
+    </div>
+    <br />
+    <p>2016 Menu Restaurant</p><br />
+  </div>
+  </div>
+
+</body>
 </html
